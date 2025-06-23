@@ -5,7 +5,6 @@
 This repository contains resources for the conference presentation "Same Threats - New Vectors: OWASP Top 10 for LLMs" delivered at AI in Production and Sloss.tech/dev conferences.
 
 **Presenter:** David Hawthorne  
-**Role:** Director of Cloud Engineering, O3 Solutions  
 **Website:** [davidhawthorne.com](https://davidhawthorne.com)  
 **Focus Areas:** Data Engineering, ML/Analytics, Cloud Architecture, Security & Compliance (SOC 2, GDPR, PDPA)
 
@@ -91,7 +90,7 @@ Building resilient system design, strong observability, and governance structure
    - Low Risk + Low Impact: Standard controls sufficient
 4. **Implementation** - Apply controls and monitor
 
-### Sarah's Security Path (Technical)
+### Sarah's Security  (Technical)
 
 - **Risk Assessment** - What could go wrong, how do we test each feature?
 - **Human Oversight** - AI assists, humans decide (bake into products and agents)
@@ -153,17 +152,8 @@ LinkedIn: [Connect on LinkedIn](https://linkedin.com/in/davidhawthorne)
 
 ## License & Usage
 
-This presentation and associated materials are shared for educational purposes. Please reference appropriately when using content from this presentation.
-
+This presentation and associated materials are shared for educational purposes. All opinions are my own and not of my employer.
 ---
 
 *"Security isn't just about preventing attacks - it's about enabling sustainable innovation."*
 
-## Contributing
-
-Found a broken link or have suggestions for additional resources? Please open an issue or submit a pull request.
-
-## Changelog
-
-- **2025-01-XX** - Initial release with 2025 OWASP Top 10 for LLMs updates
-- Resources compiled from AI in Production and Sloss.tech/dev conference presentations
