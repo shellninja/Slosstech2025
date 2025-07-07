@@ -27,14 +27,14 @@ Building resilient system design, strong observability, and governance structure
 
 ### Official OWASP LLM Documentation
 - **[OWASP Top 10 for LLMs 2025](https://genai.owasp.org/llm-top-10/)** - The official 2025 list
-- **[OWASP LLM AI Security Project](https://owasp.org/www-project-top-10-for-large-language-model-applications/)** - Main project page
+- **[OWASP GenAI Security Project](https://genai.owasp.org/)** - Main project page
 - **[OWASP Red Teaming Guide for LLMs](https://genai.owasp.org/resource/red-teaming-guide/)** - Comprehensive testing methodology
 
-### Traditional OWASP Web Application Security
-- **[OWASP Top 10 2021](https://owasp.org/Top10/)** - Web application security risks
+### OWASP for Web Application Security
+- **[OWASP Top 10](https://owasp.org/Top10/)** - Web application security risks
 - **[OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)** - Security testing methodology
 
-## Security Tools & Platforms
+## Security Tools, Platforms, etc.
 
 ### Prompt Injection Protection
 - **[LLM Guard](https://llm-guard.com/)** - Open-source prompt injection detection (4.1M+ downloads)
@@ -73,11 +73,14 @@ Building resilient system design, strong observability, and governance structure
 - **[Hystrix](https://github.com/Netflix/Hystrix)** - Latency and fault tolerance library
 - **[resilience4j](https://resilience4j.readme.io/)** - Fault tolerance library for Java applications
 
+#### Bonus: Evaluation Testing
+
+
 ## Security Frameworks Presented
 
 ### Strategic Security Assessment Framework
 
-1. **Inventory Assets** - Classifications (customer-facing, internal tools, data systems, RAG pipelines)
+1. **Inventory Assets** - items and categories might include: customer-facing and internal tools, data pipelines, RAG context, etc. know their contents and locations.
 2. **Strategic Decisions** - Risk assessment questions:
    - Can this destroy my business if compromised?
    - Does it access sensitive data?
@@ -90,14 +93,14 @@ Building resilient system design, strong observability, and governance structure
    - Low Risk + Low Impact: Standard controls sufficient
 4. **Implementation** - Apply controls and monitor
 
-### Sarah's Security  (Technical)
+### Sarah's Contributions (Technical)
 
 - **Risk Assessment** - What could go wrong, how do we test each feature?
 - **Human Oversight** - AI assists, humans decide (bake into products and agents)
 - **Output Validation** - Never publish AI content without review
 - **Incident Response** - Clear escalation paths when AI fails
 
-### Marcus's Security Path (Strategic)
+### Marcus's Contributions (Strategic)
 
 - **Foundational** - Data quality and bias detection
 - **Validation** - AI assists, humans decide (embedded in products/agents)
@@ -122,13 +125,17 @@ Building resilient system design, strong observability, and governance structure
 ## Key Takeaways
 
 1. **Same Principles, New Systems** - Traditional security principles apply to AI systems with new attack vectors
-2. **AI Security = Business Continuity** - Security failures cascade into strategic business problems  
+2. **AI Security is Business Strategy** - Security failures cascade into strategic business problems  
 3. **Trust Through Transparency** - Build accountable AI through layered governance, not perfect AI
 4. **Treat AI Like Privileged Applications** - Apply the same rigor you use for business-critical systems
 
 ## Additional Resources
 
+### Evaluation
+- **[AI Evaulation post by Mauzma Zahid](https://www.linkedin.com/posts/muazmazahid_learnwithmz-ai-productmanagement-activity-7339338076504150016-2k0b?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAHPCPABvEmoD-kUsIMMiDwv72zC7xlcsGc)** "As AI features become core to product roadmaps, evaluating AI systems is no longer just a research problem. It's a product responsibility. Whether you're building copilots, agents, search, or agentic systems, you need to know how to measure what “good” looks like."
+
 ### Academic & Research
+- **[NIST: There's more to bias than biased data](https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights)** - Rooting out bias in artificial intelligence will require addressing human and systemic biases as well.
 - **[TruthfulQA](https://github.com/sylinrl/TruthfulQA)** - Benchmark for measuring model truthfulness
 - **[AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)** - NIST AI RMF 1.0
 
